@@ -70,8 +70,6 @@ echo "--- grcov"
 rm -rf target/cov/tmp
 mkdir -p target/cov/tmp
 
-# Can't use a simpler construct under the condition of SC2044 and bash 3
-# (macOS's default). See: https://github.com/koalaman/shellcheck/wiki/SC2044
 find target/cov -type f -name '*.gcda' -newer target/cov/before-test ! -newer target/cov/after-test -print0 |
   (while IFS= read -r -d '' gcda_file; do
     gcno_file="${gcda_file%.gcda}.gcno"

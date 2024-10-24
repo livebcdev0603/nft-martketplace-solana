@@ -10,14 +10,6 @@ document are available at:
 - https://docs.solana.com/apps
 - https://docs.solana.com/terminology
 
-## Source
-
-The Token Metadata Program's source is available on
-[github](https://github.com/metaplex-foundation/metaplex)
-
-There is also an example Rust client located at
-[github](https://github.com/metaplex-foundation/metaplex/tree/master/rust/token-metadata/test/src/main.rs)
-that can be perused for learning and run if desired with `cargo run --bin metaplex-token-metadata-test-client`. It allows testing out a variety of scenarios.
 
 ## Interface
 

@@ -1,6 +1,5 @@
 # CANDY MACHINE
 
-https://user-images.githubusercontent.com/81876372/133098938-dc2c91a6-1280-4ee1-bf0e-db0ccc972ff7.mp4
 
 ## Creating generative art
 
@@ -77,66 +76,6 @@ ts-node cli create_generative_art -c <configuration_file_location> -n <number_of
 ```
 
 5. This will create an `assets` folder, with a set of the JSON and PNG files to make it work!
-
-## assets folder
-
-- Folder with file pairs named with incrementing integer numbers starting from 0.png and 0.json
-- the image HAS TO be a `PNG`
-- JSON format can be checked out here: https://docs.metaplex.com/nft-standard. example below:
-
-```json
-{
-  "name": "Solflare X NFT",
-  "symbol": "",
-  "description": "Celebratory Solflare NFT for the Solflare X launch",
-  "seller_fee_basis_points": 0,
-  "image": "https://www.arweave.net/abcd5678?ext=png",
-  "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
-  "external_url": "https://solflare.com",
-  "attributes": [
-    {
-      "trait_type": "web",
-      "value": "yes"
-    },
-    {
-      "trait_type": "mobile",
-      "value": "yes"
-    },
-    {
-      "trait_type": "extension",
-      "value": "yes"
-    }
-  ],
-  "collection": {
-    "name": "Solflare X NFT",
-    "family": "Solflare"
-  },
-  "properties": {
-    "files": [
-      {
-        "uri": "https://www.arweave.net/abcd5678?ext=png",
-        "type": "image/png"
-      },
-      {
-        "uri": "https://watch.videodelivery.net/9876jkl",
-        "type": "unknown",
-        "cdn": true
-      },
-      {
-        "uri": "https://www.arweave.net/efgh1234?ext=mp4",
-        "type": "video/mp4"
-      }
-    ],
-    "category": "video",
-    "creators": [
-      {
-        "address": "SOLFLR15asd9d21325bsadythp547912501b",
-        "share": 100
-      }
-    ]
-  }
-}
-```
 
 Install and build
 
